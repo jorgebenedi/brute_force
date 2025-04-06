@@ -51,7 +51,7 @@ def main():
 
     print("Identificando el método de ciframiento")
 
-    with open("kaonashi.txt","r", encoding="utf-8") as file:
+    with open("wordlist.txt","r", encoding="utf-8") as file:
         batch_size = 1000  # Tamaño del lote de líneas a procesar
         batch = []  # Almacenar líneas del lote
 
