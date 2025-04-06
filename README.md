@@ -1,5 +1,5 @@
 # brute_force
-brute_force
+dictionary_attack
 This script is designed to crack hashed passwords by comparing them against a wordlist (kaonashi.txt). It supports several hash algorithms including MD5 (32-character hashes), SHA1 (40-character hashes), SHA256 (64-character hashes), and SHA512 (128-character hashes). The user inputs a hash, and the script automatically detects the hash type based on its length. It processes the wordlist in batches for efficiency and compares each word to the hash. If a match is found, the original plaintext word is displayed. Features include batch processing for handling large wordlists efficiently, automatic hash type detection, and support for interrupt handling (Ctrl+C) to exit gracefully.
 
 hash_generator
